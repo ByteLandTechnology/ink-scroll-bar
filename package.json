@@ -11,7 +11,7 @@
     "component",
     "ui"
   ],
-  "homepage": "https://www.byteland.app/projects/ink-scroll-view",
+  "homepage": "https://www.byteland.app/opensource/ink-scroll-view",
   "bugs": {
     "url": "https://github.com/ByteLandTechnology/ink-scroll-view/issues"
   },
@@ -21,17 +21,34 @@
   },
   "license": "MIT",
   "author": "ByteLand Technology <github@byteland.app>",
-  "type": "commonjs",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index.tsx",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "vitest run",
-    "prepare": "husky"
+    "prepare": "husky",
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "ink": "^4.0.0",
+    "react": "^18.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.2.0",
     "@commitlint/config-conventional": "^20.2.0",
+    "@sindresorhus/tsconfig": "^8.1.0",
+    "@types/ink": "^0.5.2",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
     "husky": "^9.1.7",
+    "ink": "^6.5.1",
     "lint-staged": "^16.2.7",
-    "prettier": "^3.7.4"
+    "prettier": "^3.7.4",
+    "react": "^19.2.1",
+    "typescript": "^5.9.3"
   }
 }

@@ -1,0 +1,30 @@
+{
+  "extends": "@sindresorhus/tsconfig",
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    "outDir": "dist",
+    "lib": ["DOM", "DOM.Iterable", "ES2023"],
+    "sourceMap": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "module": "es2022",
+    "moduleResolution": "bundler",
+    "target": "es2022",
+    "verbatimModuleSyntax": false,
+    "exactOptionalPropertyTypes": false,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "./src",
+    "declaration": true,
+    "declarationMap": true
+  },
+  "include": ["src"],
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true,
+    "experimentalResolver": true,
+    "experimentalSpecifierResolution": "node"
+  }
+}
