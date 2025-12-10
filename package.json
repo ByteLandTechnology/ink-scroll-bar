@@ -1,23 +1,23 @@
 {
-  "name": "ink-scroll-view",
-  "version": "0.0.1",
-  "description": "A ScrollView component for Ink CLI applications",
+  "name": "@byteland/ink-scroll-bar",
+  "version": "0.1.1",
+  "description": "A vertical ScrollBar component for Ink CLI applications",
   "keywords": [
     "react",
     "ink",
     "cli",
     "terminal",
-    "scrollview",
+    "scrollbar",
     "component",
     "ui"
   ],
-  "homepage": "https://www.byteland.app/opensource/ink-scroll-view",
+  "homepage": "https://www.byteland.app/opensource/ink-scroll-bar",
   "bugs": {
-    "url": "https://github.com/ByteLandTechnology/ink-scroll-view/issues"
+    "url": "https://github.com/ByteLandTechnology/ink-scroll-bar/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ByteLandTechnology/ink-scroll-view.git"
+    "url": "git+https://github.com/ByteLandTechnology/ink-scroll-bar.git"
   },
   "license": "MIT",
   "author": "ByteLand Technology <github@byteland.app>",
@@ -26,17 +26,18 @@
   "types": "dist/index.d.ts",
   "source": "src/index.tsx",
   "files": [
-    "dist"
+    "dist",
+    "docs"
   ],
   "scripts": {
     "test": "vitest run",
     "prepare": "husky",
     "build": "tsup",
-    "docs": "typedoc"
+    "docs": "typedoc --plugin typedoc-plugin-markdown --out docs/api src/index.tsx && prettier --write docs/api"
   },
   "peerDependencies": {
-    "ink": "^4.0.0",
-    "react": "^18.0.0"
+    "ink": ">=6",
+    "react": ">=19"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.2.0",
