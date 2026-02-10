@@ -32,7 +32,7 @@ A customizable, high-precision vertical scroll bar component for [Ink](https://g
 ## 📦 Installation
 
 ```bash
-npm install ink-scroll-bar
+npm install @byteland/ink-scroll-bar
 ```
 
 ## 🚀 Usage
