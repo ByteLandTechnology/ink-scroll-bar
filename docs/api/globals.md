@@ -1,8 +1,8 @@
-[**ink-scroll-bar**](README.md)
+[**@byteland/ink-scroll-bar**](README.md)
 
 ---
 
-# ink-scroll-bar
+# @byteland/ink-scroll-bar
 
 ink-scroll-bar - Scroll bar components for Ink CLI applications.
 

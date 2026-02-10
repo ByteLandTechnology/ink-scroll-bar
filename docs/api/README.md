@@ -1,4 +1,4 @@
-**ink-scroll-bar**
+**@byteland/ink-scroll-bar**
 
 ---
 
@@ -6,8 +6,8 @@
 
 A customizable, high-precision vertical scroll bar component for [Ink](https://github.com/vadimdemedes/ink) CLI applications.
 
-![License](https://img.shields.io/npm/l/ink-scroll-bar)
-![Version](https://img.shields.io/npm/v/ink-scroll-bar)
+![License](https://img.shields.io/npm/l/@byteland/ink-scroll-bar)
+![Version](https://img.shields.io/npm/v/@byteland/ink-scroll-bar)
 
 ## ✨ Features
 
@@ -36,7 +36,7 @@ A customizable, high-precision vertical scroll bar component for [Ink](https://g
 ## 📦 Installation
 
 ```bash
-npm install ink-scroll-bar
+npm install @byteland/ink-scroll-bar
 ```
 
 ## 🚀 Usage
@@ -129,9 +129,6 @@ Inset mode renders without corners, suitable for placing _inside_ a container.
 | Prop             | Type                           | Default              | Description                                                                           |
 | ---------------- | ------------------------------ | -------------------- | ------------------------------------------------------------------------------------- |
 | `contentHeight`  | `number`                       | **Required**         | 📏 Total height of the scrollable content.                                            |
-| Prop             | Type                           | Default              | Description                                                                           |
-| ---------------- | ------------------------------ | -------------------- | ---------------------------------------------------------------------------           |
-| `contentHeight`  | `number`                       | **Required**         | 📏 Total height of the scrollable content.                                            |
 | `viewportHeight` | `number`                       | **Required**         | 👁️ Height of the visible area.                                                        |
 | `scrollOffset`   | `number`                       | **Required**         | ⬇️ Current scroll position (0 to max).                                                |
 | `placement`      | `'left' \| 'right' \| 'inset'` | `'right'`            | 📍 Rendering mode/position.                                                           |
@@ -139,7 +136,7 @@ Inset mode renders without corners, suitable for placing _inside_ a container.
 | `color`          | `string`                       | `undefined`          | 🌈 Color of the scroll bar characters.                                                |
 | `dimColor`       | `boolean`                      | `false`              | 🌑 Whether to dim the scroll bar.                                                     |
 | `autoHide`       | `boolean`                      | `false`              | 👻 Hide when content fits (Inset mode only). If false, shows track when content fits. |
-| `thumbChar`      | `string`                       | -                    | 👍 Custom thumb character (Inset mode only).                                          |
+| `thumbChar`      | `string`                       | -                    | 👍 Custom thumb character.                                                            |
 | `trackChar`      | `string`                       | -                    | 🛤️ Custom track character (Inset mode only).                                          |
 
 ### `ScrollBarBox` Props
@@ -153,6 +150,7 @@ Inherits all [Ink Box Props](https://github.com/vadimdemedes/ink#box), plus:
 | `scrollOffset`      | `number`            | **Required** | ⬇️ Current scroll position.                 |
 | `scrollBarPosition` | `'left' \| 'right'` | `'right'`    | 📍 Which border to replace with scroll bar. |
 | `scrollBarAutoHide` | `boolean`           | `false`      | 👻 Hide thumb if content fits.              |
+| `thumbChar`         | `string`            | -            | 👍 Custom thumb character.                  |
 
 ### 🎨 Styles
 

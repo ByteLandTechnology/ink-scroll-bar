@@ -1,12 +1,12 @@
-[**ink-scroll-bar**](../README.md)
+[**@byteland/ink-scroll-bar**](../README.md)
 
 ---
 
-[ink-scroll-bar](../globals.md) / ScrollBarProps
+[@byteland/ink-scroll-bar](../globals.md) / ScrollBarProps
 
 # Interface: ScrollBarProps
 
-Defined in: [src/ScrollBar.tsx:91](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBar.tsx#L91)
+Defined in: [src/ScrollBar.tsx:91](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBar.tsx#L91)
 
 ⚙️ Props for the [ScrollBar](../functions/ScrollBar.md) component.
 
@@ -16,7 +16,7 @@ Defined in: [src/ScrollBar.tsx:91](https://github.com/ByteLandTechnology/ink-scr
 
 > `optional` **autoHide**: `boolean`
 
-Defined in: [src/ScrollBar.tsx:176](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBar.tsx#L176)
+Defined in: [src/ScrollBar.tsx:175](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBar.tsx#L175)
 
 👻 Whether to hide the scroll bar when scrolling is not needed.
 
@@ -38,7 +38,7 @@ the visual border, but the thumb is hidden when scrolling is not needed.
 
 > `optional` **color**: `string`
 
-Defined in: [src/ScrollBar.tsx:192](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBar.tsx#L192)
+Defined in: [src/ScrollBar.tsx:191](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBar.tsx#L191)
 
 🌈 Color for the scroll bar characters.
 
@@ -61,7 +61,7 @@ and RGB values.
 
 > **contentHeight**: `number`
 
-Defined in: [src/ScrollBar.tsx:99](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBar.tsx#L99)
+Defined in: [src/ScrollBar.tsx:99](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBar.tsx#L99)
 
 📏 Total height of the scrollable content in lines.
 
@@ -76,7 +76,7 @@ that are not currently visible in the viewport.
 
 > `optional` **dimColor**: `boolean`
 
-Defined in: [src/ScrollBar.tsx:203](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBar.tsx#L203)
+Defined in: [src/ScrollBar.tsx:202](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBar.tsx#L202)
 
 🌑 Whether to render the scroll bar with dimmed styling.
 
@@ -95,7 +95,7 @@ resulting in a muted/grayed appearance.
 
 > `optional` **placement**: [`ScrollBarPlacement`](../type-aliases/ScrollBarPlacement.md)
 
-Defined in: [src/ScrollBar.tsx:127](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBar.tsx#L127)
+Defined in: [src/ScrollBar.tsx:127](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBar.tsx#L127)
 
 📍 Placement mode for the scroll bar.
 
@@ -113,7 +113,7 @@ Defined in: [src/ScrollBar.tsx:127](https://github.com/ByteLandTechnology/ink-sc
 
 > **scrollOffset**: `number`
 
-Defined in: [src/ScrollBar.tsx:118](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBar.tsx#L118)
+Defined in: [src/ScrollBar.tsx:118](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBar.tsx#L118)
 
 ⬇️ Current scroll position (offset from top) in lines.
 
@@ -128,7 +128,7 @@ The maximum meaningful value is `contentHeight - viewportHeight`.
 
 > `optional` **style**: [`ScrollBarStyle`](../type-aliases/ScrollBarStyle.md)
 
-Defined in: [src/ScrollBar.tsx:138](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBar.tsx#L138)
+Defined in: [src/ScrollBar.tsx:138](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBar.tsx#L138)
 
 🎨 Visual style for the scroll bar.
 
@@ -147,14 +147,13 @@ If not specified, defaults to `'single'` for border mode or
 
 > `optional` **thumbChar**: `string`
 
-Defined in: [src/ScrollBar.tsx:153](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBar.tsx#L153)
+Defined in: [src/ScrollBar.tsx:152](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBar.tsx#L152)
 
 👍 Custom character for the thumb indicator in inset mode.
 
 #### Remarks
 
-Only used when `placement` is `'inset'`. When specified, overrides
-the thumb character defined by the style.
+When specified, overrides the thumb character defined by the style.
 
 #### Example
 
@@ -169,7 +168,7 @@ the thumb character defined by the style.
 
 > `optional` **trackChar**: `string`
 
-Defined in: [src/ScrollBar.tsx:162](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBar.tsx#L162)
+Defined in: [src/ScrollBar.tsx:161](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBar.tsx#L161)
 
 🛤️ Custom character for the track background in inset mode.
 
@@ -184,7 +183,7 @@ the track character defined by the style.
 
 > **viewportHeight**: `number`
 
-Defined in: [src/ScrollBar.tsx:109](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBar.tsx#L109)
+Defined in: [src/ScrollBar.tsx:109](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBar.tsx#L109)
 
 👁️ Height of the visible viewport in lines.
 

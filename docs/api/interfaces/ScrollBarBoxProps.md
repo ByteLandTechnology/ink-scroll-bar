@@ -1,12 +1,12 @@
-[**ink-scroll-bar**](../README.md)
+[**@byteland/ink-scroll-bar**](../README.md)
 
 ---
 
-[ink-scroll-bar](../globals.md) / ScrollBarBoxProps
+[@byteland/ink-scroll-bar](../globals.md) / ScrollBarBoxProps
 
 # Interface: ScrollBarBoxProps
 
-Defined in: [src/ScrollBarBox.tsx:25](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBarBox.tsx#L25)
+Defined in: [src/ScrollBarBox.tsx:25](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBarBox.tsx#L25)
 
 ⚙️ Props for the [ScrollBarBox](../functions/ScrollBarBox.md) component.
 
@@ -427,7 +427,7 @@ false;
 
 > `optional` **children**: `ReactNode`
 
-Defined in: [src/ScrollBarBox.tsx:67](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBarBox.tsx#L67)
+Defined in: [src/ScrollBarBox.tsx:67](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBarBox.tsx#L67)
 
 📦 The content to display inside the box.
 
@@ -451,7 +451,7 @@ Size of the gap between an element's columns.
 
 > **contentHeight**: `number`
 
-Defined in: [src/ScrollBarBox.tsx:29](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBarBox.tsx#L29)
+Defined in: [src/ScrollBarBox.tsx:29](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBarBox.tsx#L29)
 
 📏 Total height of the scrollable content in lines.
 
@@ -903,7 +903,7 @@ Size of the gap between an element's rows.
 
 > `optional` **scrollBarAutoHide**: `boolean`
 
-Defined in: [src/ScrollBarBox.tsx:62](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBarBox.tsx#L62)
+Defined in: [src/ScrollBarBox.tsx:62](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBarBox.tsx#L62)
 
 👻 Whether to hide thumb indicator when content fits in viewport.
 
@@ -922,7 +922,7 @@ When `true` and content fits the viewport, only the track is shown
 
 > `optional` **scrollBarPosition**: `"left"` \| `"right"`
 
-Defined in: [src/ScrollBarBox.tsx:51](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBarBox.tsx#L51)
+Defined in: [src/ScrollBarBox.tsx:51](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBarBox.tsx#L51)
 
 📍 Which side of the box to display the scroll bar.
 
@@ -943,9 +943,19 @@ The scroll bar replaces one border of the container.
 
 > **scrollOffset**: `number`
 
-Defined in: [src/ScrollBarBox.tsx:39](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBarBox.tsx#L39)
+Defined in: [src/ScrollBarBox.tsx:39](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBarBox.tsx#L39)
 
 ⬇️ Current scroll position (offset from top) in lines.
+
+---
+
+### thumbChar?
+
+> `optional` **thumbChar**: `string`
+
+Defined in: [src/ScrollBarBox.tsx:72](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBarBox.tsx#L72)
+
+👍 Custom character for the thumb indicator.
 
 ---
 
@@ -953,7 +963,7 @@ Defined in: [src/ScrollBarBox.tsx:39](https://github.com/ByteLandTechnology/ink-
 
 > **viewportHeight**: `number`
 
-Defined in: [src/ScrollBarBox.tsx:34](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBarBox.tsx#L34)
+Defined in: [src/ScrollBarBox.tsx:34](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBarBox.tsx#L34)
 
 👁️ Height of the visible viewport in lines.
 

@@ -1,14 +1,14 @@
-[**ink-scroll-bar**](../README.md)
+[**@byteland/ink-scroll-bar**](../README.md)
 
 ---
 
-[ink-scroll-bar](../globals.md) / ScrollBar
+[@byteland/ink-scroll-bar](../globals.md) / ScrollBar
 
 # Function: ScrollBar()
 
 > **ScrollBar**(`props`): `Element` \| `null`
 
-Defined in: [src/ScrollBar.tsx:420](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBar.tsx#L420)
+Defined in: [src/ScrollBar.tsx:419](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBar.tsx#L419)
 
 📜 A vertical scroll bar indicator for Ink CLI applications.
 

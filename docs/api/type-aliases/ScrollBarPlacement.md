@@ -1,14 +1,14 @@
-[**ink-scroll-bar**](../README.md)
+[**@byteland/ink-scroll-bar**](../README.md)
 
 ---
 
-[ink-scroll-bar](../globals.md) / ScrollBarPlacement
+[@byteland/ink-scroll-bar](../globals.md) / ScrollBarPlacement
 
 # Type Alias: ScrollBarPlacement
 
 > **ScrollBarPlacement** = `"left"` \| `"right"` \| `"inset"`
 
-Defined in: [src/ScrollBar.tsx:46](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBar.tsx#L46)
+Defined in: [src/ScrollBar.tsx:46](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBar.tsx#L46)
 
 📍 Placement mode for the scroll bar.
 

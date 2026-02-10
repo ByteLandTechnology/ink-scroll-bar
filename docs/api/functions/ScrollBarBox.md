@@ -1,14 +1,14 @@
-[**ink-scroll-bar**](../README.md)
+[**@byteland/ink-scroll-bar**](../README.md)
 
 ---
 
-[ink-scroll-bar](../globals.md) / ScrollBarBox
+[@byteland/ink-scroll-bar](../globals.md) / ScrollBarBox
 
 # Function: ScrollBarBox()
 
 > **ScrollBarBox**(`props`): `Element`
 
-Defined in: [src/ScrollBarBox.tsx:171](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/4391583c2e9fb0fa85e01d968fe5434953559e87/src/ScrollBarBox.tsx#L171)
+Defined in: [src/ScrollBarBox.tsx:176](https://github.com/ByteLandTechnology/ink-scroll-bar/blob/89874aa612af74fe42dbdaa08639e9f025046fea/src/ScrollBarBox.tsx#L176)
 
 📦 A Box component with an integrated scroll bar on one border.
 
