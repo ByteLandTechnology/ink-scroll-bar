@@ -140,6 +140,32 @@ const Demo: React.FC = () => {
             />
           </Box>
         </Box>
+
+        {/* Custom Thumb (Border Mode) */}
+        <Box flexDirection="column">
+          <Text color="yellow">custom thumb</Text>
+          <Box flexDirection="row" height={BOX_HEIGHT}>
+            <Box
+              flexDirection="column"
+              borderStyle="single"
+              borderRight={false}
+            >
+              {visibleItems.map((item, i) => (
+                <Text key={i}>{item.padEnd(10)}</Text>
+              ))}
+            </Box>
+            <ScrollBar
+              placement="right"
+              style="single"
+              thumbChar="║"
+              color="cyan"
+              dimColor={dimMode}
+              contentHeight={contentHeight}
+              viewportHeight={VIEWPORT_HEIGHT}
+              scrollOffset={scrollOffset}
+            />
+          </Box>
+        </Box>
       </Box>
 
       {/* Inset Mode Styles */}
@@ -294,6 +320,27 @@ const Demo: React.FC = () => {
             width={20}
             borderStyle="double"
             scrollBarPosition="left"
+            scrollBarAutoHide={autoHide}
+            contentHeight={contentHeight}
+            viewportHeight={VIEWPORT_HEIGHT}
+            scrollOffset={scrollOffset}
+          >
+            <Box flexDirection="column">
+              {visibleItems.map((item, i) => (
+                <Text key={i}>{item}</Text>
+              ))}
+            </Box>
+          </ScrollBarBox>
+        </Box>
+
+        <Box flexDirection="column">
+          <Text color="yellow">custom thumb</Text>
+          <ScrollBarBox
+            height={BOX_HEIGHT}
+            width={20}
+            borderStyle="single"
+            thumbChar="║"
+            scrollBarPosition="right"
             scrollBarAutoHide={autoHide}
             contentHeight={contentHeight}
             viewportHeight={VIEWPORT_HEIGHT}

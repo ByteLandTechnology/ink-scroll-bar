@@ -65,6 +65,11 @@ export interface ScrollBarBoxProps extends BoxProps {
    * 📦 The content to display inside the box.
    */
   children?: React.ReactNode;
+
+  /**
+   * 👍 Custom character for the thumb indicator.
+   */
+  thumbChar?: string;
 }
 
 // ============================================================================
@@ -209,6 +214,7 @@ export const ScrollBarBox = ({
           contentHeight={contentHeight}
           viewportHeight={viewportHeight}
           scrollOffset={scrollOffset}
+          thumbChar={boxProps.thumbChar}
         />
       )}
 
@@ -235,6 +241,7 @@ export const ScrollBarBox = ({
           contentHeight={contentHeight}
           viewportHeight={viewportHeight}
           scrollOffset={scrollOffset}
+          thumbChar={boxProps.thumbChar}
         />
       )}
     </Box>

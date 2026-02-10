@@ -96,6 +96,13 @@ const AutoDemo = () => {
           offset={scrollOffset}
           placement="right"
         />
+        <StyleDemo
+          style="single"
+          label="custom"
+          offset={scrollOffset}
+          placement="right"
+          thumbChar="║"
+        />
       </Box>
     </Box>
   );
@@ -228,12 +235,14 @@ const StyleDemo = ({
   offset,
   placement,
   borderStyle,
+  thumbChar,
 }: {
   style: ScrollBarStyle;
   label: string;
   offset: number;
   placement: "right" | "inset";
   borderStyle?: any;
+  thumbChar?: string;
 }) => {
   const visibleItems = items.slice(offset, offset + VIEWPORT_HEIGHT);
 
@@ -258,6 +267,7 @@ const StyleDemo = ({
             contentHeight={CONTENT_HEIGHT}
             viewportHeight={VIEWPORT_HEIGHT}
             scrollOffset={offset}
+            thumbChar={thumbChar}
           />
         </Box>
       </Box>
@@ -275,6 +285,7 @@ const StyleDemo = ({
         contentHeight={CONTENT_HEIGHT}
         viewportHeight={VIEWPORT_HEIGHT}
         scrollOffset={offset}
+        thumbChar={thumbChar}
       >
         <Box flexDirection="column">
           {visibleItems.map((item, i) => (

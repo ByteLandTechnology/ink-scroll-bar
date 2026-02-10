@@ -141,8 +141,7 @@ export interface ScrollBarProps {
    * 👍 Custom character for the thumb indicator in inset mode.
    *
    * @remarks
-   * Only used when `placement` is `'inset'`. When specified, overrides
-   * the thumb character defined by the style.
+   * When specified, overrides the thumb character defined by the style.
    *
    * @example
    * ```tsx
@@ -445,14 +444,12 @@ export const ScrollBar = ({
 
     // Get character set based on style and mode
     const styleChars = getStyleChars(style, isInset);
-    const chars = isInset
-      ? {
-          track: trackChar ?? styleChars.track,
-          thumb: thumbChar ?? styleChars.thumb,
-          upperThumb: thumbChar ?? styleChars.upperThumb,
-          lowerThumb: thumbChar ?? styleChars.lowerThumb,
-        }
-      : styleChars;
+    const chars = {
+      track: isInset ? (trackChar ?? styleChars.track) : styleChars.track,
+      thumb: thumbChar ?? styleChars.thumb,
+      upperThumb: thumbChar ?? styleChars.upperThumb,
+      lowerThumb: thumbChar ?? styleChars.lowerThumb,
+    };
 
     // Build character array for each row
     const result: { char: string; isThumb: boolean }[] = [];
