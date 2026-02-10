@@ -1,6 +1,6 @@
 {
   "name": "@byteland/ink-scroll-bar",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "A vertical ScrollBar component for Ink CLI applications",
   "keywords": [
     "react",
